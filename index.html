@@ -5,52 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roger Borges | Revenue Lead & Analytics Strategist</title>
     <style>
-
-        body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-dark);
-            
-            /* --- CÓDIGO DO FUNDO ADICIONADO ABAIXO --- */
-            background-color: var(--bg-light); /* Cor leve de fundo como base */
-            background-image: url('background.png'); /* Chame sua imagem salva */
-            background-repeat: repeat; /* Para criar o efeito de papel de parede */
-            background-attachment: fixed; /* O fundo não rola junto com o texto, dá profundidade */
-            background-size: 50%; /* Define o tamanho dos símbolos (ajuste se quiser maior ou menor) */
-            /* ------------------------------------------- */
-            
-            margin: 0;
-            padding: 0;
-        }
-        
         :root {
             --google-blue: #4285F4;
             --text-dark: #3c4043;
             --bg-light: #f8f9fa;
         }
-        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text-dark); background: var(--bg-light); margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            
+            /* --- CONFIGURAÇÃO DO FUNDO --- */
+            background-color: var(--bg-light);
+            background-image: url('background.png');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: 500px; /* Ajustei para pixels para melhor controle do padrão */
+        }
+
         nav { background: white; padding: 15px; text-align: center; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 1000; }
         nav a { margin: 0 15px; text-decoration: none; color: var(--text-dark); font-weight: 500; transition: 0.3s; }
         nav a:hover { color: var(--google-blue); }
         nav a.active { color: var(--google-blue); border-bottom: 2px solid var(--google-blue); padding-bottom: 5px; }
-        header { background: white; padding: 30px 20px; text-align: center; border-bottom: 1px solid #ddd; }
+        
+        header { background: rgba(255, 255, 255, 0.9); padding: 30px 20px; text-align: center; border-bottom: 1px solid #ddd; }
+        
         .container { display: flex; max-width: 1200px; margin: 20px auto; gap: 20px; padding: 0 15px; }
-        main { flex: 3; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        
+        main { flex: 3; background: rgba(255, 255, 255, 0.95); padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
         aside { flex: 1; min-width: 300px; }
+        
         .ad-slot { display: flex; justify-content: center; margin: 20px 0; background: #eee; border: 1px dashed #ccc; }
+        
         h1 { margin: 0; color: var(--google-blue); font-size: 2.2em; }
         h2 { border-bottom: 2px solid var(--google-blue); padding-bottom: 5px; margin-top: 30px; color: var(--google-blue); text-transform: uppercase; font-size: 1.1em; letter-spacing: 1px; }
         h3 { color: var(--text-dark); border-left: 4px solid var(--google-blue); padding-left: 10px; }
+        
         .exp-item { margin-bottom: 30px; }
         .job-title { font-weight: bold; font-size: 1.3em; color: #000; }
         .date { color: #70757a; font-size: 0.9em; margin-bottom: 10px; display: block; font-style: italic; }
         .highlight-tag { background: #e8f0fe; color: #1967d2; padding: 4px 12px; border-radius: 20px; font-size: 0.85em; font-weight: bold; margin-bottom: 10px; display: inline-block; }
-        .cv-embed-container { position: relative; width: 100%; height: 900px; margin-top: 20px; border: 1px solid #ddd; border-radius: 4px; }
+        
+        .cv-embed-container { position: relative; width: 100%; height: 900px; margin-top: 20px; border: 1px solid #ddd; border-radius: 4px; background: white; }
         .cv-embed-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
-        footer { text-align: center; padding: 40px; background: white; margin-top: 40px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .sidebar-box { background: #fff; padding: 15px; border: 1px solid #eee; border-radius: 8px; margin-bottom: 20px; }
+        
+        footer { text-align: center; padding: 40px; background: rgba(255, 255, 255, 0.9); margin-top: 40px; }
+        .sidebar-box { background: white; padding: 15px; border: 1px solid #eee; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+
         @media (max-width: 900px) { .container { flex-direction: column; } aside { order: -1; } .cv-embed-container { height: 600px; } }
     </style>
 
@@ -75,7 +79,7 @@
 
 <header>
     <h1>Roger Borges dos Reis</h1>
-    <p><strong> Strategic Partner Manager at Google | Physicist | MBA in BI & Analytics </strong></p>
+    <p><strong>Strategic Partner Manager at Google | Physicist | MBA in BI & Analytics</strong></p>
     <div class="ad-slot">
         <div id='div-gpt-ad-1769357397951-0'>
             <script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1769357397951-0'); });</script>
@@ -116,7 +120,6 @@
     </main>
 
     <aside>
-    
         <div class="sidebar-box">
             <h3>GTM & Revenue Strategy</h3>
             <p><strong>Strategic Commercialization:</strong> Expert in architecting Go-to-Market frameworks that align complex product capabilities with market-driven revenue opportunities.</p>
@@ -150,8 +153,6 @@
             <div id='div-gpt-ad-1769357305659-0' style='min-width: 300px; min-height: 250px;'>
                 <script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1769357305659-0'); });</script>
             </div>
-        </div>
-    </aside>
         </div>
     </aside>
 </div>

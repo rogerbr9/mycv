@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBA Intelligence & Analytics | Roger Borges dos Reis</title>
+    <style>
+        :root { --google-blue: #4285F4; --text-dark: #3c4043; --bg-light: #f8f9fa; }
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text-dark); background: var(--bg-light); margin: 0; padding: 0; }
+        nav { background: white; padding: 15px; text-align: center; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 1000; }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--text-dark); font-weight: 500; }
+        nav a.active { color: var(--google-blue); border-bottom: 2px solid var(--google-blue); padding-bottom: 5px; }
+        header { background: white; padding: 30px 20px; text-align: center; border-bottom: 1px solid #ddd; }
+        .container { display: flex; max-width: 1200px; margin: 20px auto; gap: 20px; padding: 0 15px; }
+        main { flex: 3; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        aside { flex: 1; min-width: 300px; }
+        h1 { margin: 0; color: var(--google-blue); font-size: 2.2em; }
+        h2 { border-bottom: 2px solid var(--google-blue); padding-bottom: 5px; margin-top: 30px; color: var(--google-blue); }
+        h3 { color: var(--text-dark); border-left: 4px solid var(--google-blue); padding-left: 10px; margin-top: 25px; }
+        .embed-section { margin-top: 20px; border: 1px solid #ddd; border-radius: 4px; overflow: hidden; height: 600px; position: relative; }
+        .embed-section iframe { width: 100%; height: 100%; border: none; }
+        footer { text-align: center; padding: 40px; background: white; margin-top: 40px; }
+        @media (max-width: 900px) { .container { flex-direction: column; } .embed-section { height: 400px; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home / CV</a>
+    <a href="mba.html" class="active">MBA & Analytics</a>
+</nav>
+
+<header>
+    <h1>MBA in Business Intelligence & Analytics</h1>
+    <p><strong>Universidade de São Paulo (USP) - Capstone Project</strong></p>
+</header>
+
+<div class="container">
+    <main>
+        <h2>Academic Expertise & Research</h2>
+        <p>Combining my background in Physics with advanced data analytics to solve complex business problems. Below are the key deliverables of my MBA final project.</p>
+
+        <h3>Final Presentation (Slides)</h3>
+        <div class="embed-section">
+            <iframe src="<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQk4QEbI6Uo-t-Pibcjm2Qb37LLWxfJCQMYDVyPcO4fS-1kMmOqFFjiPCFThmdJc0HMZDOLXke-M6VI/pubembed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe"></iframe>
+        </div>
+
+        <h3>Full Thesis Paper (TCC)</h3>
+        <div class="embed-section">
+            <iframe src="<iframe src="https://docs.google.com/document/d/e/2PACX-1vR77zAy5D1I_i25B3G6VmoAGQGU5HY7qt5V5AZfM5HWcRwMj_IFYbhY0f1mbnuIvnES0URpvvSbMv5P/pub?embedded=true"></iframe>
+        </div>
+    </main>
+
+    <aside>
+        <div class="sidebar-box">
+            <h3>Core Skills Acquired</h3>
+            <ul>
+                <li>Predictive Modeling</li>
+                <li>Data Storytelling</li>
+                <li>Big Data Strategy</li>
+                <li>Advanced Statistics</li>
+            </ul>
+        </div>
+        <div class="sidebar-box">
+            <h3>Academic Background</h3>
+            <p><strong>Physicist</strong> by training, focusing on analytical precision applied to the digital ecosystem.</p>
+        </div>
+    </aside>
+</div>
+
+<footer>
+    <p>&copy; 2026 Roger Borges dos Reis - Academic Portfolio.</p>
+</footer>
+
+</body>
+</html>

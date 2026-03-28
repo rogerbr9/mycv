@@ -11,6 +11,9 @@
             --bg-light: #f8f9fa;
         }
         body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text-dark); background: var(--bg-light); margin: 0; padding: 0; }
+        nav { background: white; padding: 15px; text-align: center; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 1000; }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--text-dark); font-weight: 500; }
+        nav a.active { color: var(--google-blue); border-bottom: 2px solid var(--google-blue); padding-bottom: 5px; }
         header { background: white; padding: 30px 20px; text-align: center; border-bottom: 1px solid #ddd; }
         .container { display: flex; max-width: 1200px; margin: 20px auto; gap: 20px; padding: 0 15px; }
         main { flex: 3; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
@@ -23,7 +26,7 @@
         .job-title { font-weight: bold; font-size: 1.2em; color: #000; }
         .date { color: #70757a; font-size: 0.9em; margin-bottom: 10px; display: block; }
         .highlight-tag { background: #e8f0fe; color: #1967d2; padding: 4px 12px; border-radius: 20px; font-size: 0.85em; font-weight: bold; margin-bottom: 10px; display: inline-block; }
-        .cv-embed-container { position: relative; width: 100%; height: 800px; margin-top: 20px; border: 1px solid #ddd; border-radius: 4px; overflow: hidden; }
+        .cv-embed-container { position: relative; width: 100%; height: 850px; margin-top: 20px; border: 1px solid #ddd; border-radius: 4px; overflow: hidden; }
         .cv-embed-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
         footer { text-align: center; padding: 40px; background: white; margin-top: 40px; }
         ul { padding-left: 20px; }
@@ -46,6 +49,11 @@
     </script>
 </head>
 <body>
+
+<nav>
+    <a href="index.html" class="active">Home / CV</a>
+    <a href="mba.html">MBA & Analytics</a>
+</nav>
 
 <header>
     <h1>Roger Borges dos Reis</h1>
@@ -82,24 +90,19 @@
 
         <h2>Detailed CV</h2>
         <div class="cv-embed-container">
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vS7NhqVw_rzeQq__Ik4TkQ4HpzqQ2Xek7L5l3HgsjJe5VM2eD2C5Bxp0sV68527XriTpHi_JHYl7Ccv/pub?embedded=true"></iframe>
+            <iframe src="SEU_LINK_AQUI_PUBLICADO_NA_WEB"></iframe>
         </div>
     </main>
 
     <aside>
         <div class="sidebar-box">
             <h3>Ecosystem Expertise</h3>
-            <p><strong>Multi-Industry Impact:</strong> Proven track record delivering growth across <strong>Telco, Commerce, and News</strong>, navigating the unique challenges of each advertising sub-sector.</p>
+            <p><strong>Multi-Industry Impact:</strong> Proven track record delivering growth across <strong>Telco, Commerce, and News</strong>.</p>
         </div>
 
         <div class="sidebar-box">
             <h3>The Technical-Commercial Bridge</h3>
-            <p><strong>Internal xFN Synergy:</strong> Expert at navigating Google’s internal product landscape, working across a huge variety of products to create unified solutions for external partners.</p>
-        </div>
-
-        <div class="sidebar-box">
-            <h3>Global Sellside Strategy</h3>
-            <p><strong>Holistic Advertising View:</strong> Deep understanding of the entire advertising ecosystem, from publisher monetization to the evolving requirements of the global sellside market.</p>
+            <p><strong>Internal xFN Synergy:</strong> Expert at navigating Google’s internal product landscape to create unified solutions.</p>
         </div>
         
         <div class="ad-slot">
